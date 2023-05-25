@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# SmallTube
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SmallTube es una aplicación que guarda tus videos favoritos en un solo lugar para que no los pierdas. Esta aplicación te permite administrar y organizar tus videos de manera fácil y conveniente.
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+SmallTube es una aplicación web desarrollada por Jorge Andres Romo Turco. Con SmallTube, puedes registrar tus videos favoritos, clasificarlos en diferentes categorías y acceder a ellos de manera rápida y sencilla. La aplicación te permite mantener una colección personalizada de videos, evitando que se pierdan entre los múltiples sitios y enlaces que utilizas.
 
-### `npm start`
+## Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Registra tus videos favoritos proporcionando información como título, enlace, imagen, categoría y descripción.
+- Organiza tus videos en categorías personalizadas para una fácil navegación y búsqueda.
+- Visualiza una página de inicio con un slider de videos destacados.
+- Explora las diferentes secciones categorizadas para descubrir videos relacionados.
+- Elimina videos y categorías que ya no necesitas.
+- Interfaz intuitiva y fácil de usar.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologías utilizadas
 
-### `npm test`
+- React: biblioteca de JavaScript utilizada para construir la interfaz de usuario.
+- React Router: librería para el enrutamiento de la aplicación.
+- Bootstrap 5: framework CSS utilizado para el diseño y estilos.
+- Slick Carousel: biblioteca de carrusel utilizada para mostrar el slider de videos.
+- UUID: biblioteca para generar identificadores únicos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalación
 
-### `npm run build`
+1. Clona este repositorio en tu máquina local.
+2. Abre una terminal y navega hasta la carpeta del proyecto.
+3. Ejecuta el comando `npm install` para instalar las dependencias.
+4. Luego, ejecuta el comando `npm start` para iniciar la aplicación en modo de desarrollo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribución
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Si deseas contribuir a SmallTube, puedes seguir estos pasos:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Haz un fork de este repositorio.
+2. Crea una nueva rama para tu contribución.
+3. Realiza tus modificaciones y mejoras.
+4. Realiza un pull request para fusionar tus cambios con la rama principal.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
