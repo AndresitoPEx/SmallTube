@@ -13,6 +13,7 @@ const HeaderHome = ({ videos }) => {
       </div>
       {ultimoVideo && (
         <ReactPlayer
+          className="video-header"
           url={ultimoVideo.link}
           width="50%"
           controls

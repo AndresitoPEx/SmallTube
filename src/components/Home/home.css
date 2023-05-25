@@ -1,14 +1,13 @@
-.home{
+.slider-container {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -0;
+    overflow: hidden;
+  }
+  img{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.home h1{
-    font-size: 40px;
-    color:#212121;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    margin-bottom: 32px;
-    padding: 100px;
-} 
+  }
+  

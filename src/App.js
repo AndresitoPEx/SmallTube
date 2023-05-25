@@ -12,6 +12,7 @@ import Home from './components/Home';
 import HeaderHome from './components/HeaderHome';
 import Section from './components/Section';
 import Footer from './components/footer';
+import NotFoundPage from './pages/404';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -24,7 +25,7 @@ function App() {
     {
       id: uuid(),
       titulo: "Video 1",
-      link: "https://www.youtube.com/watch?v=J6qIzKxmW8Y",
+      link: "https://www.youtube.com/watch?v=H1aNTRK3YfU",
       imagen: "https://i.ytimg.com/vi/7C2z4GqqS5E/maxresdefault.jpg",
       categoria: "Favoritos",
       descripcion: "Este es el video 1"
@@ -33,7 +34,7 @@ function App() {
     {
       id: uuid(),
       titulo: "Video 2",
-      link: "https://www.youtube.com/watch?v=0R-fFbA737A",
+      link: "https://www.youtube.com/watch?v=H_s-xM6Ii1g",
       imagen: "https://i.ytimg.com/vi/7C2z4GqqS5E/maxresdefault.jpg",
       categoria: "Favoritos",
       descripcion: "Este es el video 2"
@@ -41,7 +42,7 @@ function App() {
     {
       id: uuid(),
       titulo: "Video 3",
-      link: "https://www.youtube.com/watch?v=aA2IRoPFIn0",
+      link: "https://www.youtube.com/watch?v=ESShhQmBjjY",
       imagen: "https://i.ytimg.com/vi/7C2z4GqqS5E/maxresdefault.jpg",
       categoria: "Favoritos",
       descripcion: "Este es el video 3"
@@ -49,7 +50,7 @@ function App() {
     {
       id: uuid(),
       titulo: "Video 4",
-      link: "https://www.youtube.com/watch?v=SjYecEQFL0U",
+      link: "https://www.youtube.com/watch?v=tA-_vAz9y78&t=414s&pp=ygUSbmV4dCBqcyBlY29tbWVyY2Ug",
       imagen: "https://i.ytimg.com/vi/7C2z4GqqS5E/maxresdefault.jpg",
       categoria: "Favoritos",
       descripcion: "Este es el video 4"
@@ -57,10 +58,10 @@ function App() {
     {
       id: uuid(),
       titulo: "Video 5",
-      link: "https://www.youtube.com/watch?v=ygdVEIrVnIk",
+      link: "https://www.youtube.com/watch?v=QqiDandkcBY",
       imagen: "https://i.ytimg.com/vi/7C2z4GqqS5E/maxresdefault.jpg",
       categoria: "Favoritos",
-      descripcion: "Este es el video 5"
+      descripcion: "Video para aprender a realizar apis con prisma y node js"
     },
 
     {
@@ -98,11 +99,11 @@ function App() {
     },
     {
       id: uuid(),
-      titulo: "Video 5",
+      titulo: "Weight of Love",
       link: "https://www.youtube.com/watch?v=ygdVEIrVnIk",
       imagen: "https://i.ytimg.com/vi/7C2z4GqqS5E/maxresdefault.jpg",
       categoria: "Entretenimiento",
-      descripcion: "Este es el video 5"
+      descripcion: "Mi tema favorito de The Black Keys"
     },
   ]);
 
@@ -185,8 +186,8 @@ function App() {
 
           <Route path="/" element={
             <>
-              <Home />
               <HeaderHome videos={videos}/>
+              <Home />
               {categorias.map((categoria, index) => (
                 <Section
                   datos={categoria}
@@ -214,8 +215,8 @@ function App() {
             actualizarCategorias={actualizarCategorias} 
             eliminarCategoria = {eliminarCategoria}
             />} 
-            
             />
+          <Route path="*" element={<NotFoundPage />} />
 
         </Routes>
         <Footer />
