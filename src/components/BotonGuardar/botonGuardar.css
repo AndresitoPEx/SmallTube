@@ -1,0 +1,15 @@
+.botonGuardar{
+    font-family: 'Montserrat', sans-serif;
+    background-color: darkcyan;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 18px 32px;
+    margin: 20px 10px;
+    color: white;
+}
+.botonGuardar:hover{
+    background-color: #00a3a3;
+}

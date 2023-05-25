@@ -1,0 +1,37 @@
+.section-section{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.boton-seccion{
+    color: #1E1E1E;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+.boton-seccion:hover{
+    color: #65727c;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.texto-seccion{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+}
+.videitos{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;        
+}

@@ -1,0 +1,29 @@
+.footer{
+    background-color: #00000058;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-top: 2px white solid;   
+    display: flex;
+    justify-content: space-between;   
+    padding: 30px 150px;
+}
+.footer img{
+    width: 150px;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.footer a:hover{
+    color: #8f7193;
+}
+.footer p{
+    margin: 10px 0;
+}
